@@ -1,2 +1,3 @@
 # freq-counter
-Frequency counter
+
+Frequency counter with PIC18
