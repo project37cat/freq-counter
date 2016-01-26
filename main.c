@@ -100,12 +100,6 @@ void init_mcu(void)
 	ADCON1=0b1111; //disable analog inputs
 	
 	RBPU=1; //disable pull-up on PORTB
-		
-	TRISC5=0;
-	TRISC4=0;
-	
-	RC5=0;
-	RC4=1;
 	
 	//TMR0ON T08BIT T0CS T0SE PSA T0PS2 T0PS1 T0PS0
 	T0CON=0b00000000;
